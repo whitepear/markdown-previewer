@@ -1,3 +1,10 @@
-body {
-	background: red;
+.container {
+	margin-top: 50px;
+}
+
+.output-div {
+	border-radius: 5px;
+	background: #fff;
+	min-height: 500px;	
+	word-wrap: break-word;
 }
