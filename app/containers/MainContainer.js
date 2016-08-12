@@ -25,6 +25,7 @@ var MainContainer = React.createClass({
 	render: function () {
 		return (
 	    <div className="row">
+	    	<h1 className="hidden-xs hidden-sm text-center app-title">Github Markdown Previewer</h1>
 	    	<Input onInput={this.handleInput} rawText={this.state.rawText} />
 	    	<Output convertedMarkdown={this.state.markedText} />
 	    </div>				
