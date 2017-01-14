@@ -1,5 +1,5 @@
-FreeCodeCamp coursework. React Project: Build a Markdown Previewer  
-https://www.freecodecamp.com/challenges/build-a-markdown-previewer
+This application is live at: https://whitepear.github.io/projects/react/markdown/app/index.html
 
-User Story: I can type GitHub-flavored Markdown into a text area.  
-User Story: I can see a preview of the output of my markdown that is updated as I type.
+A React.js application that allows users to type GitHub-flavoured markdown into a text-area field and preview the processed output, which updates with each keystroke.
+
+The application architecture is designed around a stateful container component, within which two stateless functional components reside. The application utilises the 'Marked' library in order to interpret markdown within the input area. Styling is implemented via Sass.
